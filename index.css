@@ -41,5 +41,6 @@ div {
 }
 
 #result {
-    height: 20px;
+
+    font-style: italic;
 }
