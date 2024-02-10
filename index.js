@@ -45,7 +45,7 @@ function drawCard() {
     message = "You're out of the game! 😭"
     isAlive = false
     }
-    cardString.textContent = "Cards: " + firstCard + " - " + secondCard + " - " + drawnCard;
+    cardString.textContent += " - " + drawnCard;
     sumString.textContent = "Sum:" + sum;
     resultString.textContent = message;
     console.log(message)
